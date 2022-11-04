@@ -36,4 +36,32 @@ public class HomeController {
 		return "home";
 	}
 	
+	
+	@RequestMapping("/login.do")
+	public String login() {
+		
+		return "login";
+	}
+	
+	
+	@RequestMapping("/welcome.do")
+	public String welcom() {
+		
+		return "welcom";
+	}
+	
+	
+	@RequestMapping("/logout.do")
+	public String logout() {
+		return "logout";
+	}
+	
+	@RequestMapping("/loginForm.do")
+	public String loginForm() {
+		
+		return "loginForm";
+	}
+	
+	
+	
 }
